@@ -14,12 +14,15 @@ public class Main extends JavaPlugin implements Listener
 	public void onEnable()
 	{
 		getServer().getPluginManager().registerEvents(this, this);
+		saveDefaultConfig();
 		host = getConfig().getString("Host");
 		port = getConfig().getString("Port");
 		username = getConfig().getString("Username");
 		pass = getConfig().getString("Password");
 		dbName = getConfig().getString("DBName");
 		t = new Tables();
+		getLogger().info("BungeeAuthValidator has successfully started!");
+		getLogger().info("Created by Vik1395");
 	}
 	
 	@EventHandler
