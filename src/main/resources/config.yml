@@ -1,0 +1,17 @@
+# BungeeAuthValidator Config File.
+# Please enter the details for BungeeAuth's database.
+
+Host: 127.0.0.1
+# Please enter the Host of your MySQL Database here.
+
+Port: '3306'
+# Please enter the port where your MySQL Database is hosted.
+
+Username: root
+# The Username which should be used to auth against the Database.
+
+Password: 'pass'
+# The Password which should be used to auth against the Database. If you don't have a password, please leave two quotation marks (') in this field.
+
+DBName: Bungee
+#The name of the database where BungeeAuth's Tables shall be created.

@@ -1,0 +1,5 @@
+name: BungeeAuth
+main: me.vik1395.BungeeAuthValidator.Main
+version: 1.0
+description: A bukkit plugin that checks if a player has validated with bungeeauth before they can enter.
+author: Vik1395
