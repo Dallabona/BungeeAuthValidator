@@ -24,21 +24,13 @@ You may find an abridged version of the License at http://creativecommons.org/li
  * @author tips48
  * @author Vik1395
  */
-public abstract class Database {
+public interface Database {
 
     /**
      * Plugin instance, use for plugin.getDataFolder() and plugin.getLogger()
      */
 
-    /**
-     * Creates a new Database
-     * 
-     * @param plugin
-     *            Plugin instance
-     */
-    protected Database() {
-    }
-
+    
     /**
      * Opens a connection with the database
      * 

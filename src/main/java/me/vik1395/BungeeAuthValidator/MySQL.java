@@ -28,7 +28,7 @@ You may find an abridged version of the License at http://creativecommons.org/li
  * @author tips48
  * @author Vik1395
  */
-public class MySQL extends Database {
+public class MySQL implements Database {
     private final String user;
     private final String database;
     private final String password;
